@@ -10,7 +10,7 @@
                     <!-- BOX -->
                     <div class="box border blue">
                         <div class="box-title">
-                            <h4><i class="fa fa-sitemap"></i>设备位置信息</h4>
+                            <h4><i class="fa fa-sitemap"></i>组织机构信息</h4>
                         </div>
                     </div>
                 </div>
@@ -39,23 +39,5 @@
         </div>
     </div>
     <!-- /CONTENT-->
-</div>
-
-
-<div class="modal fade " id="loc_modal" tabindex="-1"
-     role="dialog" aria-labelledby="myModalLabel2">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"
-                        aria-label="Close"><span
-                        aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel2">请输入位置报修描述</h4>
-            </div>
-            <div class="modal-body">
-                <%@include file="locationReport.jsp" %>
-            </div>
-        </div>
-    </div>
 </div>
 <script type="text/javascript" src="/js/app/locations/location.js"></script>

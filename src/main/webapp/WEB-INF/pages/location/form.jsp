@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-12 col-sm-12 col-lg-12">
             <div class="form-group">
-                <label for="description" class="col-md-2 col-sm-2 col-lg-2 control-label">位置名称</label>
+                <label for="description" class="col-md-2 col-sm-2 col-lg-2 control-label">组织机构名称</label>
                 <div class="col-md-3 col-sm-3 col-lg-3">
                     <input class="form-control" id="description" type="text" name="description"
                            value="${location.description}" v-model="location.description" required/>
@@ -15,7 +15,8 @@
                     <input class="form-control" id="superior" type="text" name="superior" value="${location.superior}"
                            v-model="location.superior"/>
                     <input class="form-control" id="id" type="hidden" name="id" v-model="location.id"/>
-                    <input class="form-control" id="location" type="hidden" name="location" v-model="location.location"/>
+                    <input class="form-control" id="location" type="hidden" name="location"
+                           v-model="location.location"/>
                     <input class="form-control" id="parent" type="hidden" name="parent" v-model="location.parent"/>
                     <input class="form-control" id="locLevel" type="hidden" name="locLevel"
                            v-model="location.locLevel"/>
